@@ -77,38 +77,39 @@ Refer to `app.py` for the main application logic, including prediction functions
 
 REAL-TIME-THINGS-IDENTIFICATION/
      REAL-TIME-THINGS-IDENTIFICATION/
-│
-├── app.py                      # Main Flask application
-├── requirements.txt            # Python dependencies
-├── README.md                   # Project documentation
-├── LICENSE                     # Project license
-│
-├── static/                     # Static assets (CSS, JS, uploads)
-│   ├── uploads/                # Uploaded files (image/video)
-│   └── style.css               # Optional styling
-│
-├── templates/                  # HTML frontend templates
-│   ├── index.html
-│   ├── image.html
-│   ├── video.html
-│   ├── webcam.html
-│   ├── yt.html
-│   └── rtsp.html
-│
-├── yolov8_utils/               # YOLOv8 processing scripts
-│   ├── detect.py               # Object detection logic
-│   ├── classify.py             # Image classification logic
-│   ├── segment.py              # Instance segmentation logic
-│   ├── pose.py                 # Pose estimation logic
-│   └── utils.py                # Shared utility functions
-│
-├── data/
-│   └── raw/                    # Sample input files (keep under 100MB)
-│
-└── outputs/                    # Output results (annotated files)
-    ├── images/
-    ├── videos/
-    └── logs/
+## │
+## ├── app.py                      # Main Flask application
+## ├── requirements.txt            # Python dependencies
+## ├── README.md                   # Project documentation
+## ├── LICENSE                     # Project license
+## │
+## ├── static/                     # Static assets (CSS, JS, uploads)
+## │   ├── uploads/                # Uploaded files (image/video)
+## │   └── style.css               # Optional styling
+## │
+## ├── templates/                  # HTML frontend templates
+## │   ├── index.html
+## │   ├── image.html
+## │   ├── video.html
+## │   ├── webcam.html
+## │   ├── yt.html
+## │   └── rtsp.html
+## │
+## ├── yolov8_utils/               # YOLOv8 processing scripts
+## │   ├── detect.py               # Object detection logic
+## │   ├── classify.py             # Image classification logic
+## │   ├── segment.py              # Instance segmentation logic
+## │   ├── pose.py                 # Pose estimation logic
+## │   └── utils.py                # Shared utility functions
+## │
+## ├── data/
+## │   └── raw/                    # Sample input files (keep under 100MB)
+## │
+## └── outputs/                    # Output results (annotated files)
+##     ├── images/
+##     ├── videos/
+ ##    └── logs/
+
 
 ## 💡 Use Cases
 	•	🛡️ Smart Surveillance and Security
