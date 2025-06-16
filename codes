@@ -1,0 +1,4 @@
+For object detection: python app.py --weights yolov8s.pt
+For instance segmentation: python app.py --weights yolov8s-seg.pt
+For image classification: python app.py --weights yolov8s-cls.pt
+For human pose estimation: python app.py --weights yolov8s-pose.pt
