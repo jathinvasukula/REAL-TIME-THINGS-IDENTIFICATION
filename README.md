@@ -30,7 +30,7 @@ It supports a variety of input formats — from static images and video files to
 ## 📥 Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/KOTAHARSHA25/YOLOv8-Image-and-Video-Processing-Application.git
+   git clone https://github.com/jathinvasukula/REAL-TIME-THINGS-IDENTIFICATION
    cd YOLOv8-Image-and-Video-Processing-Application
    ```
 2. Create a virtual environment and activate it:
